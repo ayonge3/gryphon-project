@@ -578,9 +578,9 @@ class gryphon_toolbox(object):
             self.gryphonError("Error in first required argument: Time domain.",
                               "Specified time domain [%s,%s] is negative." % (self.T[0], self.T[1]))
 
-        if type(self.u) != d.Function:
-            self.gryphonError("Error in second required argument: Initial condition.",
-                              "The initial condition must be given as a Function-object.")
+        #if type(self.u) != d.Function:
+        #    self.gryphonError("Error in second required argument: Initial condition.",
+        #                      "The initial condition must be given as a Function-object.")
 
         if type(self.f) != list:
             self.f = [self.f]
