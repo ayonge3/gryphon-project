@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with Gryphon. If not, see <http://www.gnu.org/licenses/>.
 
-from .ESDIRK import ESDIRK
+from .ESDIRK_module import ESDIRK
 from .backwardEuler import backwardEuler
 
 __help__ = "To get help on the available parameters of a Gryphon object, run the command 'info(Gryphon_object.parameters, verbose=True)'."
